@@ -28,7 +28,6 @@ function populateHeader(obj) {
 }
 
 function showHeroes(obj) {
-    console.log("Me");
   const heroes = obj["members"];
 
   for (let i = 0; i < heroes.length; i++) {
